@@ -1,14 +1,14 @@
 package com.demo.accessmodifiers.privatemethodpackage;
 
 //private
-class PrivateMethodClass {
+public class PrivateMethodClass {
 
     private void privateMethod () {
         System.out.println("Private Method");
     }
 
-    /*public static void main (String args[]) {
+    public static void main (String args[]) {
         PrivateMethodClass privateMethodClass = new PrivateMethodClass();
         privateMethodClass.privateMethod();
-    }*/
+    }
 }

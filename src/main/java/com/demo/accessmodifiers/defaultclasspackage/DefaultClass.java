@@ -1,5 +1,5 @@
 package com.demo.accessmodifiers.defaultclasspackage;
-
+//public
 class DefaultClass {
 
     void defaultMethod() {

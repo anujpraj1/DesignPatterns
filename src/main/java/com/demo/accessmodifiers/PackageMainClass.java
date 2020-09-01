@@ -8,6 +8,10 @@ package com.demo.accessmodifiers;
 //import com.demo.accessmodifiers.protectedclasspackage.ProtectedClass;
 //import com.demo.accessmodifiers.publicclasspackage.PublicClass;
 
+//import com.demo.accessmodifiers.defaultclasspackage.DefaultClass;
+import com.demo.accessmodifiers.protectedclasspackage.ProtectedClass;
+import com.demo.accessmodifiers.publicclasspackage.PublicClass;
+
 public class PackageMainClass {
 
     public static void main(String args[]) {
@@ -17,9 +21,11 @@ public class PackageMainClass {
         //defaultClass.defaultMethod();
         //ProtectedClass protectedClass = new ProtectedClass();
         //protectedClass.protectedMethod();
-        //PublicClass publicClass = new PublicClass();
-        //publicClass.publicMethod();
+        PublicClass publicClass = new PublicClass();
+        publicClass.publicMethod();
         //SubClassOfProtected subClassOfProtected = new SubClassOfProtected();
         //subClassOfProtected.protectedMethod()
+        //SubClassOfDefaulClass subClassOfDefaulClass = new SubClassOfDefaulClass();
+        //subClassOfDefaulClass.defaultMethod();
     }
 }
