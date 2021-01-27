@@ -28,5 +28,6 @@ public class SimpleInheritenceMainClass {
         System.out.println(locationTable.getLocationId()+" : "+locationTable.getLocationType()+" : "+locationTable.getCreateTimeOfRecord()+" : "+locationTable.getCreateUser());
         System.out.println("=================== Item Information =====================");
         System.out.println(itemTable.getItemId()+" : "+itemTable.getUnitOfMeasure()+" : "+itemTable.getCreateTimeOfRecord()+" : "+itemTable.getCreateUser());
+        System.out.println("I printed this line");
     }
 }
